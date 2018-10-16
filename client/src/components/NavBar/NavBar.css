@@ -1,0 +1,23 @@
+.nav-logo {
+  animation: App-logo-spin infinite 4s linear;
+  margin-right: 1rem !important;
+}
+.ui.header.nav-logo-text {
+  margin: 0;
+  line-height: 1;
+}
+.ui.menu .right.menu .dropdown:last-child .menu {
+  left: -47px !important;
+}
+.nav-account-icon i.icon {
+  font-size: 2rem;
+  margin-top: 0.8rem;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}

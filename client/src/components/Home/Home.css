@@ -1,0 +1,48 @@
+body {
+  font-size: 16px !important;
+}
+body {
+  background: #f7f7f7 !important;
+}
+
+.dimmed.dimmable #root {
+  overflow: hidden;
+}
+.text--center {
+  text-align: center;
+}
+.m-b-1 {
+  margin-bottom: 1rem !important;
+}
+.m-b-2 {
+  margin-bottom: 2rem !important;
+}
+.m-b-3 {
+  margin-bottom: 3rem !important;
+}
+.p-v-1 {
+  padding: 1rem 0 !important;
+}
+.p-v-2 {
+  padding: 2rem 0 !important;
+}
+.p-v-3 {
+  padding: 3rem 0 !important;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.error-message {
+  background-color: #e51919;
+  padding: 0.5rem;
+  color: #fefefe;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 18px !important;
+  }
+}

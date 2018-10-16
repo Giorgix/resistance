@@ -1,0 +1,51 @@
+.card {
+  max-width: 100%;
+}
+.media {
+  /*height: 140px;*/
+  background-size: cover;
+  object-fit: cover;
+}
+.action-content {
+  text-align: left;
+}
+.card-date {
+  padding-top: 1rem;
+  color: #777777;
+}
+.card-actions {
+  display: flex;
+}
+.button-right {
+  margin-left: auto;
+}
+.likes-count {
+  margin-left: 0.4rem;
+}
+.float-right {
+  float: right;
+}
+.text-right {
+  text-align: right;
+}
+.content-preview a {
+  color: inherit;
+}
+.content-preview a:hover {
+  color: inherit;
+}
+
+@media only screen and (min-width: 768px) {
+  .image-square {
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+    text-align: center;
+  }
+  .image-square img {
+    height: 100%;
+    width: auto;
+    margin-left: -30%;
+    max-width: none !important;
+  }
+}

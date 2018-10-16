@@ -1,0 +1,21 @@
+.Actions-title {
+  font-size: 1.5em;
+}
+.actions {
+  padding: 48px 16px 48px 16px;
+  flex-grow: 1;
+  margin: 0;
+  width: 100%;
+}
+.paper {
+  padding: 24px;
+  text-align: center;
+  /*color: #1e1e1e;*/
+}
+
+/*.scrollable-horiz {
+  overflow-x: scroll;
+}
+.scrollable-horiz a {
+  display: inline-block;
+}*/

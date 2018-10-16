@@ -1,0 +1,14 @@
+.action-view-image {
+  overflow: hidden;
+}
+
+.action-view {
+  min-height: 600px;
+}
+.comments-list {
+  max-height: 316px;
+  overflow: overlay;
+}
+.comment {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "resistance-server",
+  "jest": {
+    "verbose": true,
+    "testMatch": [
+      "**/__tests__/**"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx|ts)$": "babel-jest"
+    }
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "cd backend && nodemon server.js --exec babel-node --presets es2015",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "start": "cd backend && babel-node server.js --presets es2015",
+    "test": "jest --watch",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "*",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "firebase-admin": "^6.0.0",
+    "mongoose": "^5.2.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "babel-jest": "*",
+    "concurrently": "^4.0.1",
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
+  }
+}
